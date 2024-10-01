@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SEO Audit Tool",
+  "version": "1.0",
+  "description": "A Chrome extension for auditing SEO on web pages.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
